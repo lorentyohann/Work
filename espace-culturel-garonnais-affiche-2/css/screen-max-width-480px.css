@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	
+}
+
+
+#banner{
+	
+   height:640px;
+}
+#blockTexte{
+	
+	margin-top:180px;
+	
+}
+
+h1{
+	font-size: 35px;	
+}
+
+#blockTexte p{
+	font-size: 18px;
+}
+#blockTexte img{
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+#fleche{
+	top:580px;
+	margin-top:0;
+}
+
+
+.titrePart{
+	display:block;	
+	font-weight: 500;
+	font-family: 'Ubuntu', sans-serif;
+	color: #313131;
+	font-size: 24px;
+	width:300px;
+	border: solid 4px #14c0b0;
+	margin:auto;
+	margin-top:40px;
+	margin-bottom:40px;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.contenuCv{
+	margin-top:40px;
+	padding-left:0;
+	border-left:none;
+	width:300px;
+	color:#404040;
+	font-weight: 300;
+	text-align:center;
+	margin:auto;	
+}
+.contenuintegration{
+
+	margin:0;
+	padding:0;
+	width:370px;
+	float:none;
+	
+	margin:auto;
+	margin-top:40px;
+
+}
+#pictomenu{
+
+	display:block;
+}
+#menu{
+	display:none;	
+}
+#fondMenu{
+	display:none;	
+}
+
+#retour{
+	padding-top:16px;
+	padding-bottom:16px;
+	text-align: left;
+	top:0px;
+
+}
+#retour a{
+	
+margin-left:15px;
+
+}
+#top{
+	height:80px;	
+}
+
+.titrePage{
+	font-size: 40px;
+}
+.textePage{
+	max-width:547px;
+	padding-left:15px;
+	padding-right:15px;
+	margin:0;
+	text-align:center;	
+	margin-bottom:40px;	
+}
+#imgPage{
+text-align:center;
+}
+#imgPage img{
+width:80%;
+}
+#blocLeft{
+	float:left;
+	padding-left:0;	
+}
+#blocLeft img{
+	width:100%;
+	height:auto;
+}
+#blocRight{
+	margin-top:15px;
+	float:left;
+	margin-left:0;	
+}
+#blocRight img{
+	width:100%;
+		height:auto;
+}
+
+#avantapres img{
+	width:100%;
+		height:auto;
+}

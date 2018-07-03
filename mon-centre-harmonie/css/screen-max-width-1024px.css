@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#banner{
+   height:768px;
+}
+#blockTexte{
+	
+	margin-top:270px;
+	
+}
+
+h1{
+	font-size: 45px;	
+}
+
+#blockTexte p{
+	font-size: 18px;
+}
+#fleche{
+	top:708px;
+	margin-top:0;
+}
+#blockGauche{
+		
+	width:100%;
+	
+	float:none;
+	padding-bottom:0;
+}
+#blockDroite{
+		
+	width:100%;
+	
+	float:none;
+		padding-top:50px;
+}
+
+#blockDroite p{
+	text-align:center;
+}
+#telechargerCV{
+	margin:auto;
+	margin-top:43px;
+}
+.titreFormation{
+	width:100%;
+	float:none;	
+}
+.contenuFormation{
+	width:100%;
+	float:none;		
+}
+
+.dateViolet{
+	
+	display:block;
+	
+	margin:auto;
+	margin-top:40px;
+	width:30%;
+	text-align:center;
+	
+}
+
+.contenuCv{
+	margin-top:40px;
+	padding-left:0;
+	border-left:none;
+	width:409px;
+	color:#404040;
+	font-weight: 300;
+	text-align:center;
+	margin:auto;	
+}
+.contenuCompetences{
+	float:none;
+	padding-top:40px;
+	display:block;
+	width:90%;
+	margin:auto;
+padding-bottom:70px;
+	text-align:center;
+	
+}
+
+
+.contenuintegration{
+	
+	margin:0;
+	padding:0;
+	width:720px;
+	float:none;
+	
+	margin:auto;
+	margin-top:40px;
+
+}
+.contenucontact{
+	margin-top:25px;
+	width:100%;
+	float:none;	
+
+
+}
+
+#blockadresse{
+	width:100%;
+
+	float:none;	
+	text-align:center;
+}
+#blocklogos{
+	width:100%;
+	float:none;	
+	text-align:center;
+	margin-top:45px;
+}
+
+.textePage{
+	max-width:750px;
+	padding-left:15px;
+	padding-right:15px;
+	margin:0;
+	margin-top:45px;
+	text-align:left;	
+	margin-bottom:40px;	
+	margin-left:20px;
+	float:none;
+}
+#imgPage{
+text-align:center;	
+}
+#blocLeft{
+	float:none;
+	padding-left:0;	
+	text-align:center;
+}
+#blocRight{
+	float:none;
+	margin-left:0;
+	text-align:center;	
+}
+
+
+
+#avantapres div{
+	float:none;
+	text-align:center;
+	margin-top:10px;
+}
+
+#charte img{
+	width:100%;
+		height:auto;
+}
