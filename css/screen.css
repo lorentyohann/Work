@@ -74,8 +74,28 @@ h1 .gras{
 	z-index:750;
 	left:50%;
 	top:0%;
+	width:60px;
+	height:60px;
 	margin-top:960px;
-	margin-left:-30px;
+	-webkit-transform:translateX(-50%);
+	-ms-transform:translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.conteneurfleche{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.imgfleche{
+	position:absolute;
+	top:50%;
+	height:50%;
+	width:60px;
+	height:60px;
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	transform: translate(-50%,-50%);
 }
 #presentation{
 	width: 100%;

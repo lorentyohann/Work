@@ -10,7 +10,7 @@ menuSelected=0;
 var tableauCompetences = new Array();
 var tableauLiens = new Array("Bonduelle/index.html","kikkoman/index.html","st-sever/index.html","chbam/index.html","leroy-merlin/index.html","mealizy/index.html","espace-culturel-garonnais/index.html","espace-culturel-garonnais-affiche-2/index.html","eloise-vene/index.html","espace-culturel-garonnais-affiche-1/index.html","chateau-huradin/index.html","les-renards-de-l-atlas/index.html","mon-centre-harmonie/index.html");
 var tableauLiensSelf = new Array("0","0","0","0","0","0","0","0","0","0","0","0","0","0","0","0");
-var tableauLiensSociaux = new Array("https://www.facebook.com/yohann.lorent.9","http://fr.linkedin.com/pub/yohann-lorent/a5/a49/238/4","https://vimeo.com/user33108881");
+var tableauLiensSociaux = new Array("https://www.instagram.com/ux_ui_and_co/","https://www.facebook.com/yohann.lorent.9","https://github.com/yohannlorent?tab=repositories","https://www.instagram.com/ux_ui_and_co/");
 function miseEnPage(){
 	focusMenu();
 	clicksAncres();	
@@ -19,7 +19,7 @@ function miseEnPage(){
 	
 	$("#blockTexte").css({opacity :0});
 	$("#blockTexte p").css({opacity :0});
-	$("#blockTexte").animate({"margin-top" :"20%",opacity :1},800,"easeOutQuad",function(){
+	$("#blockTexte").animate({"margin-top" :"20%",opacity :1},800,"easeOutElastic",function(){
 		$("#blockTexte p").animate({opacity :1},600,"easeOutQuad",function(){ }).dequeue()
 	}).dequeue();
 	
@@ -117,7 +117,7 @@ function miseEnPage(){
 		});
 		
 		$(this).click(function() {	
-			 window.open(tableauLiensSociaux[n])
+			 window.open(tableauLiensSociaux[n+1])
 		});
 		
 						
@@ -306,7 +306,12 @@ function testScroll(){
 }
 
 function clicksAncres(){
-	
+	 $('#fleche').mouseover(function() {
+		 $('.imgfleche').css('width','70px');
+		 $('.imgfleche').css('height','70px');
+		 $('.imgfleche').animate({height:'60px',width:'60px' },800, 'easeOutElastic', function() { });
+		
+	 }); 
 	 $('#fleche').click(function() {
      	$('html,body').animate({scrollTop: $("#presentation").offset().top-70}, 'slow');
    	 }); 
